@@ -6,8 +6,9 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        equalize_frequency ef = new();
-        Console.Write(ef.EqualFrequency("aazz"));
+        MaxSubarray m = new();
 
+        int x = m.MaxSubArray([-2, 1]);
+        Console.WriteLine(x);
     }
 }

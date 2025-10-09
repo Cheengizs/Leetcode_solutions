@@ -6,9 +6,20 @@ public class Program
 {
     public static void Main(string[] args)
     {
-        MaxSubarray m = new();
+        ListNode l1 = new ListNode(9);
+        l1.next = new(9);
+        l1.next.next = new(9);
+        l1.next.next.next = new(9);
+        l1.next.next.next.next = new(9);
+        l1.next.next.next.next.next = new(9);
+        l1.next.next.next.next.next.next = new(9);
+        
+        ListNode l2 = new ListNode(9);
+        l2.next = new(9);
+        l2.next.next = new(9);
+        l2.next.next.next = new(9);
 
-        int x = m.MaxSubArray([-2, 1]);
-        Console.WriteLine(x);
+        AddTwoNumber a = new();
+        a.AddTwoNumbers(l1, l2);
     }
 }

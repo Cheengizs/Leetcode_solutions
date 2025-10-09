@@ -1,4 +1,4 @@
-﻿namespace Task_83;
+﻿namespace Leetcode;
 
 public class ListNode
 {
@@ -16,7 +16,6 @@ public class Solution
 {
     public ListNode DeleteDuplicates(ListNode head)
     {
-        // ListNode temp = new ListNode();
         ListNode res = head;
 
         while (head != null)
